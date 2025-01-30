@@ -1,10 +1,18 @@
 # Git Commands Reference
 
-## Basic Commands
+# Basic Commands
+
+## SETUP
+| **Git Command** | **Description** |
+|---------------|-------------|
+|`git config --global user.name “[firstname lastname]` | Sets an identifiable name for commit history |
+| `git config --global user.email “[valid-email]` | set an email address that will be associated with each history marker |
+
+
 
 | **Git Command** | **Description** |
 |---------------|-------------|
-| `git init` | Initializes a new Git repository. |
+| `git init` | Initialize an existing directory as a Git repository |
 | `git clone <repo_url>` | Clones a remote repository to your local machine. |
 | `git status` | Shows the status of changes in the working directory. |
 
