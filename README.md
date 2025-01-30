@@ -1,0 +1,56 @@
+# Git Commands Reference
+
+## Basic Commands
+
+| **Git Command** | **Description** |
+|---------------|-------------|
+| `git init` | Initializes a new Git repository. |
+| `git clone <repo_url>` | Clones a remote repository to your local machine. |
+| `git status` | Shows the status of changes in the working directory. |
+
+## Working with Files
+
+| **Git Command** | **Description** |
+|---------------|-------------|
+| `git add <file>` | Stages a specific file for commit. |
+| `git add .` | Stages all changes in the working directory. |
+| `git commit -m "message"` | Commits staged changes with a descriptive message. |
+| `git log` | Displays the commit history. |
+
+## Branching and Merging
+
+| **Git Command** | **Description** |
+|---------------|-------------|
+| `git branch` | Lists all branches in the repository. |
+| `git branch <branch_name>` | Creates a new branch. |
+| `git checkout <branch_name>` | Switches to a different branch. |
+| `git merge <branch_name>` | Merges a branch into the current branch. |
+
+## Remote Repositories
+
+| **Git Command** | **Description** |
+|---------------|-------------|
+| `git pull` | Fetches and merges changes from a remote repository. |
+| `git push` | Pushes local commits to a remote repository. |
+| `git remote -v` | Lists remote repositories linked to the local repository. |
+
+## Undoing Changes
+
+| **Git Command** | **Description** |
+|---------------|-------------|
+| `git reset --hard <commit_hash>` | Resets the repository to a specific commit. |
+| `git revert <commit_hash>` | Reverts a specific commit while keeping history. |
+| `git stash` | Temporarily saves uncommitted changes. |
+| `git stash pop` | Restores stashed changes. |
+
+## Additional Commands
+
+| **Git Command** | **Description** |
+|---------------|-------------|
+| `git tag <tag_name>` | Creates a tag for a specific commit. |
+| `git rebase <branch_name>` | Reapplies commits on top of another branch. |
+| `git config --global user.name "Your Name"` | Sets the global username for Git. |
+| `git config --global user.email "your.email@example.com"` | Sets the global email for Git. |
+
+---
+This README provides a structured reference for essential Git commands.
