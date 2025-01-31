@@ -24,6 +24,11 @@
 | `git add .` | Stages all changes in the working directory. |
 | `git commit -m "message"` | Commits staged changes with a descriptive message. |
 | `git log` | Displays the commit history. |
+| `git restore <file>` | Restores file before staging |
+| `git restore --staged <file>` | Restores file from staging area |
+| `git restore --source <commit_hash> <file>` | Restores file to working directory from specific commit | 
+
+
 
 ## Branching and Merging
 
