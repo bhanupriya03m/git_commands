@@ -35,9 +35,9 @@
 | **Git Command** | **Description** |
 |---------------|-------------|
 | `git tag` | List all tags |
-| `git tag [name] [commit sha]` | Create a tag reference named `[name]` for current commit, or add `[commit sha]` to tag a specific commit |
-| `git tag -a [name] [commit sha]` | Create an annotated tag object named `[name]` for current commit, or tag a specific commit |
-| `git tag -d [name]` | Remove a tag from the local repository |
+| `git tag -a [tag_name] -m "[message]"` | Create an annotated tag with the specified `[tag_name]` and a message `[message]` |
+| `git show [tag_name]` | Display the commit information and details of the specified tag `[tag_name]` |
+
 
 
 ## Branching and Merging
