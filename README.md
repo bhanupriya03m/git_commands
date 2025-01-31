@@ -27,6 +27,7 @@
 | `git restore <file>` | Restores file before staging |
 | `git restore --staged <file>` | Restores file from staging area |
 | `git restore --source <commit_hash> <file>` | Restores file to working directory from specific commit | 
+| `git diff` | Shows changes between commits or working directory |
 
 
 
