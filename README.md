@@ -33,8 +33,8 @@
 ## Tagging Commits
 
 | `git tag` | List all tags |
-| `git tag [name]` [commit sha] | Create a tag reference named `[name]` for current commit, or add `[commit sha]` to tag a specific commit |
-| `git tag -a [name]` [commit sha] | Create an annotated tag object named `[name]` for current commit, or tag a specific commit |
+| `git tag [name] [commit sha]` | Create a tag reference named `[name]` for current commit, or add `[commit sha]` to tag a specific commit |
+| `git tag -a [name] [commit sha]` | Create an annotated tag object named `[name]` for current commit, or tag a specific commit |
 | `git tag -d [name]` | Remove a tag from the local repository |
 
 
