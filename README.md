@@ -28,6 +28,7 @@
 | `git restore --staged <file>` | Restores file from staging area |
 | `git restore --source <commit_hash> <file>` | Restores file to working directory from specific commit | 
 | `git diff` | Shows changes between commits or working directory |
+| `git rm <file>` | Deletes file from working directory and repository |
 
 
 
