@@ -30,6 +30,12 @@
 | `git diff` | Shows changes between commits or working directory |
 | `git rm <file>` | Deletes file from working directory and repository |
 
+## Tagging Commits
+
+| `git tag` | List all tags |
+| `git tag [name]` [commit sha] | Create a tag reference named `[name]` for current commit, or add `[commit sha]` to tag a specific commit |
+| `git tag -a [name]` [commit sha] | Create an annotated tag object named `[name]` for current commit, or tag a specific commit |
+| `git tag -d [name]` | Remove a tag from the local repository |
 
 
 ## Branching and Merging
